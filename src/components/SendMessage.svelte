@@ -10,10 +10,10 @@
 	<a
 		href="https://www.eigerx.com/#contact"
 		target="_blank"
-		class="mt-4 flex items-center justify-between rounded-[10px] border border-[#24FFBC] bg-[#1B1E22] px-5 py-4 duration-300 hover:bg-[#0B0B0F]"
+		class="mt-4 flex items-center justify-between rounded-[10px] border border-primary bg-default px-5 py-4 duration-300 hover:bg-dark"
 	>
 		<div class="flex flex-col">
-			<h6 class="font-inter text-sm font-semibold text-[#F5F5F5]">Send us a message</h6>
+			<h6 class="font-inter text-sm font-semibold text-default">Send us a message</h6>
 			<span class="font-inter text-sm font-normal text-[#83838D]"
 				>We typically reply within a day</span
 			>

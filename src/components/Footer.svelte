@@ -9,41 +9,41 @@
 	}
 </script>
 
-<footer class="mt-4 grid h-[81px] grid-cols-3 rounded-lg border-t border-[#15171B] bg-[#0B0B0F]">
+<footer class="bg-dark border-default mt-4 grid h-[81px] grid-cols-3 rounded-lg border-t">
 	<a href="/" class="group flex flex-col items-center justify-center">
 		<HomeIcon
-			className="{isActive('/') ? 'fill-[#24FFBC]' : 'fill-[#F5F5F5]'} group-hover:fill-[#24FFBC]"
+			className="{isActive('/') ? 'fill-primary' : 'fill-lightGray'} group-hover:fill-primary"
 		/>
 		<span
 			class="{isActive('/')
-				? 'font-semibold text-[#24FFBC]'
-				: 'font-normal text-[#F5F5F5]'} font-inter mt-2 text-sm leading-[21px] group-hover:font-semibold group-hover:text-[#24FFBC]"
+				? 'font-semibold text-primary'
+				: 'text-default font-normal'} font-inter mt-2 text-sm leading-[21px] group-hover:font-semibold group-hover:text-primary"
 			>Home</span
 		>
 	</a>
 	<a href="/" class="group flex flex-col items-center justify-center">
 		<MessageIcon
 			className="{isActive('/messages')
-				? 'fill-[#24FFBC]'
-				: 'fill-[#F5F5F5]'} group-hover:fill-[#24FFBC]"
+				? 'fill-primary'
+				: 'fill-lightGray'} group-hover:fill-primary"
 		/>
 		<span
 			class="{isActive('/messages')
-				? 'font-semibold text-[#24FFBC]'
-				: 'font-normal text-[#F5F5F5]'} font-inter mt-2 text-sm leading-[21px] group-hover:font-semibold group-hover:text-[#24FFBC]"
+				? 'font-semibold text-primary'
+				: 'text-default font-normal'} font-inter mt-2 text-sm leading-[21px] group-hover:font-semibold group-hover:text-primary"
 			>Messages</span
 		>
 	</a>
 	<a href="/" class="group flex flex-col items-center justify-center">
 		<HelpIcon
 			className="{isActive('/help')
-				? 'stroke-[#24FFBC]'
-				: 'stroke-[#F5F5F5]'} group-hover:stroke-[#24FFBC]"
+				? 'stroke-primary'
+				: 'stroke-lightGray'} group-hover:stroke-primary"
 		/>
 		<span
 			class="{isActive('/help')
-				? 'font-semibold text-[#24FFBC]'
-				: 'font-normal text-[#F5F5F5]'} font-inter mt-2 text-sm leading-[21px] group-hover:font-semibold group-hover:text-[#24FFBC]"
+				? 'font-semibold text-primary'
+				: 'text-default font-normal'} font-inter mt-2 text-sm leading-[21px] group-hover:font-semibold group-hover:text-primary"
 			>Help</span
 		>
 	</a>

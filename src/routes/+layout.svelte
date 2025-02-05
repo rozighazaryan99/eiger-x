@@ -3,7 +3,7 @@
 	let { children } = $props();
 </script>
 
-<div class="absolute -z-10 h-full w-full bg-[#24FFBC]">
+<div class="absolute -z-10 h-full w-full bg-primary">
 	<div
 		class="absolute top-0 -z-10 h-[55.114%] w-full bg-[url('/images/bg-linear.png')] bg-cover bg-no-repeat"
 	></div>

@@ -23,11 +23,11 @@
 	}
 </script>
 
-<div class="mt-3 rounded-[10px] border border-[#15171B] bg-[#0B0B0F] p-[7px]">
-	<div class="flex items-center justify-between rounded-lg bg-[#1B1E22] pr-3">
+<div class="bg-dark border-default mt-3 rounded-[10px] border p-[7px]">
+	<div class="bg-default flex items-center justify-between rounded-lg pr-3">
 		<input
 			type="text"
-			class="font-inter w-full bg-transparent px-3 py-2.5 text-sm font-semibold leading-[21px] text-[#F5F5F5] placeholder:text-[#F5F5F5] focus:outline-none"
+			class="font-inter w-full bg-transparent px-3 py-2.5 text-sm font-semibold leading-[21px] text-default placeholder:text-default focus:outline-none"
 			placeholder="Search for help"
 			bind:value={searchValue}
 		/>
@@ -40,13 +40,13 @@
 					<li>
 						<a
 							href="/"
-							class="group flex items-center justify-between rounded-lg px-3 py-2.5 hover:bg-[#24FFBC]"
+							class="group flex items-center justify-between rounded-lg px-3 py-2.5 hover:bg-primary"
 						>
 							<span
-								class="font-inter text-sm font-normal leading-[21px] text-[#F5F5F5] group-hover:text-[#0B0B0F]"
+								class="font-inter text-sm font-normal leading-[21px] text-default group-hover:text-dark"
 								>{item.name}</span
 							>
-							<ArrowIcon className="fill-[#24FFBC] group-hover:fill-[#0B0B0F]" />
+							<ArrowIcon className="fill-primary group-hover:fill-dark" />
 						</a>
 					</li>
 				{/each}

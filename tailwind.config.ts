@@ -10,6 +10,20 @@ export default {
 			fontFamily: {
 				inter: ['Inter', 'sans-serif'],
 				sf: ['SF Pro Display', 'sans-serif'],
+			},
+			colors: {
+				lightGray: '#F5F5F5',
+				dark: '#0B0B0F',
+				primary: '#24FFBC',
+			},
+			backgroundColor: {
+				default: '#1B1E22',
+			},
+			borderColor: {
+				default: '#15171B'
+			},
+			textColor: {
+				default: '#F5F5F5',
 			}
 		}
 	},
