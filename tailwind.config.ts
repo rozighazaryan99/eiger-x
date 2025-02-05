@@ -6,7 +6,12 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				inter: ['Inter', 'sans-serif'],
+				sf: ['SF Pro Display', 'sans-serif'],
+			}
+		}
 	},
 
 	plugins: [typography, containerQueries]

@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import Footer from '../components/Footer.svelte';
+	import Header from '../components/Header.svelte';
+	import SearchDropdown from '../components/HelpSearch.svelte';
+	import SendMessage from '../components/SendMessage.svelte';
+</script>
+
+<Header />
+<main class="flex-1 overflow-y-auto">
+	<SendMessage />
+	<SearchDropdown />
+</main>
+<Footer />
