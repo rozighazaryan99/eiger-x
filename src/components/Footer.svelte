@@ -16,8 +16,8 @@
 		/>
 		<span
 			class="{isActive('/')
-				? 'font-semibold text-primary'
-				: 'text-default font-normal'} font-inter mt-2 text-sm leading-[21px] group-hover:font-semibold group-hover:text-primary"
+				? 'text-primary font-semibold'
+				: 'text-default font-normal'} font-inter group-hover:text-primary mt-2 text-sm group-hover:font-semibold"
 			>Home</span
 		>
 	</a>
@@ -29,8 +29,8 @@
 		/>
 		<span
 			class="{isActive('/messages')
-				? 'font-semibold text-primary'
-				: 'text-default font-normal'} font-inter mt-2 text-sm leading-[21px] group-hover:font-semibold group-hover:text-primary"
+				? 'text-primary font-semibold'
+				: 'text-default font-normal'} font-inter group-hover:text-primary mt-2 text-sm group-hover:font-semibold"
 			>Messages</span
 		>
 	</a>
@@ -42,8 +42,8 @@
 		/>
 		<span
 			class="{isActive('/help')
-				? 'font-semibold text-primary'
-				: 'text-default font-normal'} font-inter mt-2 text-sm leading-[21px] group-hover:font-semibold group-hover:text-primary"
+				? 'text-primary font-semibold'
+				: 'text-default font-normal'} font-inter group-hover:text-primary mt-2 text-sm group-hover:font-semibold"
 			>Help</span
 		>
 	</a>

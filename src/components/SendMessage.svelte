@@ -2,19 +2,19 @@
 	import SendIcon from './icons/SendIcon.svelte';
 </script>
 
-<div class="mt-[80px]">
+<div class="mt-20">
 	<div class="pl-5">
-		<h2 class="color-white font-sf text-[32px] font-bold leading-[38px] opacity-70">Hello there</h2>
-		<h2 class="color-white font-sf text-[32px] font-bold leading-[38px]">How can we help?</h2>
+		<h2 class="color-white font-sf text-3.5xl font-bold opacity-70">Hello there</h2>
+		<h2 class="color-white font-sf text-3.5xl font-bold">How can we help?</h2>
 	</div>
 	<a
 		href="https://www.eigerx.com/#contact"
 		target="_blank"
-		class="mt-4 flex items-center justify-between rounded-[10px] border border-primary bg-default px-5 py-4 duration-300 hover:bg-dark"
+		class="rounded-lg+ border-primary bg-default hover:bg-dark mt-4 flex items-center justify-between border px-5 py-4 duration-300"
 	>
 		<div class="flex flex-col">
-			<h6 class="font-inter text-sm font-semibold text-default">Send us a message</h6>
-			<span class="font-inter text-sm font-normal text-[#83838D]"
+			<h6 class="font-inter text-default text-sm font-semibold">Send us a message</h6>
+			<span class="font-inter text-secondary text-sm font-normal"
 				>We typically reply within a day</span
 			>
 		</div>

@@ -11,6 +11,10 @@ export default {
 				inter: ['Inter', 'sans-serif'],
 				sf: ['SF Pro Display', 'sans-serif'],
 			},
+			fontSize: {
+				sm: ['14px', '21px'],
+				'3.5xl': ['32px', '38px'],
+			},
 			colors: {
 				lightGray: '#F5F5F5',
 				dark: '#0B0B0F',
@@ -22,9 +26,13 @@ export default {
 			borderColor: {
 				default: '#15171B'
 			},
+			borderRadius: {
+				'lg+': '10px',
+			},
 			textColor: {
 				default: '#F5F5F5',
-			}
+				secondary: '#83838D',
+			},
 		}
 	},
 

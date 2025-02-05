@@ -23,11 +23,11 @@
 	}
 </script>
 
-<div class="bg-dark border-default mt-3 rounded-[10px] border p-[7px]">
+<div class="bg-dark border-default rounded-lg+ mt-3 border p-[7px]">
 	<div class="bg-default flex items-center justify-between rounded-lg pr-3">
 		<input
 			type="text"
-			class="font-inter w-full bg-transparent px-3 py-2.5 text-sm font-semibold leading-[21px] text-default placeholder:text-default focus:outline-none"
+			class="font-inter text-default placeholder:text-default w-full bg-transparent px-3 py-2.5 text-sm font-semibold focus:outline-none"
 			placeholder="Search for help"
 			bind:value={searchValue}
 		/>
@@ -40,10 +40,9 @@
 					<li>
 						<a
 							href="/"
-							class="group flex items-center justify-between rounded-lg px-3 py-2.5 hover:bg-primary"
+							class="hover:bg-primary group flex items-center justify-between rounded-lg px-3 py-2.5"
 						>
-							<span
-								class="font-inter text-sm font-normal leading-[21px] text-default group-hover:text-dark"
+							<span class="font-inter text-default group-hover:text-dark text-sm font-normal"
 								>{item.name}</span
 							>
 							<ArrowIcon className="fill-primary group-hover:fill-dark" />
